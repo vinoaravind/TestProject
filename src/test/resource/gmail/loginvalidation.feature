@@ -12,7 +12,7 @@ Feature: LoginValidation
     Then Loged in and Inbox should display
     Then Close Browser
 
-  @ORPHAN
+  @ORPHAN @Functional
   Scenario: validate application behaviour with invalid password
         Given Open Brower and open Gmail
         When Enter email ID
