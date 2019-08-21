@@ -1,6 +1,6 @@
 Feature: GmailLogin
 
-  @ORPHAN
+  @ORPHAN @Functional
   Scenario: Verify Login 
     Given Gmail page open
     When User enter email ID
