@@ -9,3 +9,13 @@ Feature: LoginValidation
     And Click Password Next
     Then Loged in and Inbox should display
     Then Close Browser
+
+  @ORPHAN
+  Scenario: validate application behaviour with invalid password
+        Given Open Brower and open Gmail
+        When Enter email ID
+        And Click Next
+        And Enter invalid password
+        And Click Password Next
+        Then Validate error message
+        Then Close Browser
