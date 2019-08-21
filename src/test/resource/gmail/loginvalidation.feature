@@ -1,5 +1,7 @@
 Feature: LoginValidation
 
+  Validate login of gmail application
+
   @ORPHAN @Functional
   Scenario: validate application behaviour with valid id and password combination
     Given Open Brower and open Gmail
