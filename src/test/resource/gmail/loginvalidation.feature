@@ -2,7 +2,7 @@ Feature: LoginValidation
 
   Validate login of gmail application
 
-  @ORPHAN @Functional
+  @EB-1 @OPEN @Functional
   Scenario: validate application behaviour with valid id and password combination
     Given Open Brower and open Gmail
     When Enter email ID
